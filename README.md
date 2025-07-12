@@ -32,13 +32,21 @@ The model achieves good accuracy and is integrated with a FastAPI server for pre
 ## 📁 Project Structure
 
 potato-disease-classifier/
+
 ├── training/ # Contains training scripts and dataset
+
 │ ├── train.py # CNN model training script
+
 │ └── model.h5 # Trained Keras model
+
 ├── api/ # FastAPI backend
+
 │ ├── main.py # API for image classification
+
 │ └── utils.py # Helper functions for preprocessing
+
 ├── web/ # React frontend (image upload and result display)
+
 ├── README.md # Project documentation (this file)
 
 
@@ -48,14 +56,17 @@ potato-disease-classifier/
    ```bash
    git clone https://github.com/shreyash-jain5/potato-disease-classifier.git
    cd potato-disease-classifier
-2. Create and activate virtual environment
+2. **Create and activate virtual environment**
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3.Install dependencies
+3. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
 
-4. Run the FastAPI server
+5. **Run the FastAPI server**
+   ```bash
    uvicorn main:app --reload
 
 👤 Author
