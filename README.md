@@ -45,7 +45,7 @@ potato-disease-classifier/
 
 │ └── utils.py # Helper functions for preprocessing
 
-├── web/ # React frontend (image upload and result display)
+├── frontend/ # React frontend (image upload and result display)
 
 ├── README.md # Project documentation (this file)
 
@@ -68,6 +68,18 @@ potato-disease-classifier/
 5. **Run the FastAPI server**
    ```bash
    uvicorn main:app --reload
+
+✅ Frontend (React.js)
+1. Open a new terminal window
+
+2. Navigate to the web folder and install npm and run
+
+   ```bash
+   cd frontend
+   npm install
+   npm run start
+The frontend will start at http://localhost:3000 and communicate with the backend for predictions.
+
 
 👤 Author
 Shreyash Jain
