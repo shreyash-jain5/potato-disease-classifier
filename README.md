@@ -72,7 +72,7 @@ potato-disease-classifier/
 ✅ Frontend (React.js)
 1. Open a new terminal window
 
-2. Navigate to the web folder and install npm and run
+2. Navigate to the frontend folder and install npm and run
 
    ```bash
    cd frontend
