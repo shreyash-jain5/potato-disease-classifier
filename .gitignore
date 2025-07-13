@@ -1,0 +1,49 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.h5
+*.log
+*.sqlite3
+*.db
+*.egg-info/
+*.env
+.env
+
+# === Virtual Environments ===
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === VSCode & IDEs ===
+.vscode/
+.idea/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === React (Frontend) ===
+web/node_modules/
+web/build/
+web/.env
+web/.DS_Store
+
+# === FastAPI static or uploads (optional) ===
+api/static/
+api/uploads/
+
+# === Test / Coverage / PyInstaller ===
+htmlcov/
+.coverage
+.tox/
+dist/
+build/
+*.spec
