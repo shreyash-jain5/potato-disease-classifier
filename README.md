@@ -64,6 +64,7 @@ potato-disease-classifier/
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+note : before installing requirements change drive to api as requirements.txt is in api
 
 5. **Run the FastAPI server**
    ```bash
