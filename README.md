@@ -81,6 +81,10 @@ note : before installing requirements change drive to api as requirements.txt is
    npm run start
 The frontend will start at http://localhost:3000 and communicate with the backend for predictions.
 
+## 🚀 Live Demo
+Access the live FastAPI backend here:  
+👉 https://potato-disease-classifier-22nk.onrender.com/docs
+
 
 👤 Author
 Shreyash Jain
